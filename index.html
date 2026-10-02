@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#101216" />
+    <meta name="description" content="Godfrey Glory is an early-career Cloud and DevOps engineer building hands-on projects in AWS, CI/CD, Kubernetes, reliability, and DevSecOps." />
+    <title>Godfrey Glory — Cloud & DevOps Engineer</title>
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Godfrey Glory home"><span class="mark">G</span><span>G<span class="wordmark-dot">.</span></span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span></button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="#work">Projects</a>
+        <a href="#toolkit">Toolkit</a>
+        <a href="#about">About</a>
+        <a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero wrap" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-line"></span> CLOUD · DEVOPS · DEVSECOPS</p>
+          <h1 id="hero-title">I build the systems<br />that <span class="accent">ship</span> software.</h1>
+          <p class="hero-intro">I’m Godfrey Glory, an early-career Cloud &amp; DevOps engineer. I turn what I learn into practical projects across cloud infrastructure, delivery automation, reliability, and security.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">Explore my projects <span aria-hidden="true">↘</span></a>
+            <a class="button button-quiet" href="https://github.com/UyiGodfrey" target="_blank" rel="noreferrer">GitHub profile <span aria-hidden="true">↗</span></a>
+          </div>
+          <p class="availability"><span class="availability-dot"></span> Based in Nigeria <span class="availability-separator">/</span> Open to junior and graduate opportunities</p>
+        </div>
+        <div class="hero-visual" aria-label="Illustration of connected cloud infrastructure, containers and monitoring" role="img">
+          <img src="assets/cloud-infrastructure.webp" alt="Isometric cloud infrastructure with connected containers, services and monitoring" />
+          <div class="visual-label"><span class="visual-label-dot"></span> SYSTEMS THINKING <span class="visual-label-index">01 / 04</span></div>
+          <div class="visual-overlay"></div>
+        </div>
+        <div class="hero-index" aria-hidden="true"><span>01</span><span class="index-rule"></span><span>04</span></div>
+      </section>
+
+      <section class="proof-band" aria-label="Portfolio focus">
+        <div class="wrap proof-grid">
+          <div class="proof-item"><span class="proof-number">05</span><span class="proof-copy">featured<br />projects</span></div>
+          <div class="proof-divider"></div>
+          <div class="proof-item"><span class="proof-number">01</span><span class="proof-copy">hands-on<br />mindset</span></div>
+          <div class="proof-divider"></div>
+          <p class="proof-note">Learning by building, documenting the work, and being honest about what’s tested and what’s next.</p>
+          <a class="proof-link" href="https://github.com/UyiGodfrey" target="_blank" rel="noreferrer">See all repositories <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section class="section wrap" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <div><p class="eyebrow"><span class="eyebrow-line"></span> SELECTED WORK</p><h2 id="work-title">Built to learn.<br /><span class="muted">Documented to share.</span></h2></div>
+          <p class="section-aside">A few practical builds that show how I approach delivery, security, and reliable systems.</p>
+        </div>
+        <div class="filter-row" role="group" aria-label="Filter projects">
+          <button class="filter-button is-active" data-filter="all" aria-pressed="true">All projects <span>05</span></button>
+          <button class="filter-button" data-filter="delivery" aria-pressed="false">Cloud &amp; delivery</button>
+          <button class="filter-button" data-filter="security" aria-pressed="false">Security</button>
+          <button class="filter-button" data-filter="reliability" aria-pressed="false">Reliability</button>
+        </div>
+        <div class="project-grid">
+          <article class="project-card project-featured" data-category="delivery">
+            <div class="project-topline"><span class="project-number">01</span><span class="project-type">CLOUD · DELIVERY</span><a class="external-link" href="https://github.com/UyiGodfrey/nexus-devops-platform" target="_blank" rel="noreferrer" aria-label="Open Nexus DevOps Platform on GitHub">↗</a></div>
+            <h3>Nexus DevOps Platform</h3>
+            <p class="project-summary">A complete practice path for a small Node.js API—from tests and container builds to deployment-ready cloud-native configuration.</p>
+            <div class="project-evidence"><span>Node.js tests</span><span>Docker &amp; Compose</span><span>GitHub Actions</span><span>Kubernetes · Helm · Argo CD</span><span>Terraform · AWS ECR</span></div>
+            <p class="project-note">Local app and CI are runnable. Infrastructure files are examples; this project does not claim a live production deployment.</p>
+            <a class="project-read" href="https://github.com/UyiGodfrey/nexus-devops-platform" target="_blank" rel="noreferrer">Review the project <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="project-card" data-category="security">
+            <div class="project-topline"><span class="project-number">02</span><span class="project-type">DEVSECOPS</span><a class="external-link" href="https://github.com/UyiGodfrey/secure-shop-devsecops" target="_blank" rel="noreferrer" aria-label="Open Secure Shop DevSecOps on GitHub">↗</a></div>
+            <h3>Secure Shop DevSecOps Lab</h3>
+            <p class="project-summary">A small service with security checks built into its GitHub Actions workflow, designed to catch issues before merge.</p>
+            <div class="project-evidence"><span>Gitleaks</span><span>Semgrep SAST</span><span>GitHub Actions</span></div>
+            <p class="project-note">A focused security lab, not a production e-commerce application.</p>
+            <a class="project-read" href="https://github.com/UyiGodfrey/secure-shop-devsecops" target="_blank" rel="noreferrer">Review the project <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="project-card" data-category="reliability">
+            <div class="project-topline"><span class="project-number">03</span><span class="project-type">SITE RELIABILITY</span><a class="external-link" href="https://github.com/UyiGodfrey/nexus-sre-platform" target="_blank" rel="noreferrer" aria-label="Open Nexus SRE Platform on GitHub">↗</a></div>
+            <h3>Nexus SRE Platform</h3>
+            <p class="project-summary">Reliability practice work connecting service metrics with SLI and SLO definitions, error budgets, and alert rules.</p>
+            <div class="project-evidence"><span>Prometheus</span><span>Alertmanager</span><span>SLI · SLO</span><span>Error budgets</span></div>
+            <p class="project-note">The components are documented separately; a full one-command end-to-end run is a next step.</p>
+            <a class="project-read" href="https://github.com/UyiGodfrey/nexus-sre-platform" target="_blank" rel="noreferrer">Review the project <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="project-card" data-category="delivery">
+            <div class="project-topline"><span class="project-number">04</span><span class="project-type">GITOPS</span><a class="external-link" href="https://github.com/UyiGodfrey/nexus-gitops" target="_blank" rel="noreferrer" aria-label="Open Nexus GitOps on GitHub">↗</a></div>
+            <h3>Nexus GitOps State Exercise</h3>
+            <p class="project-summary">A clear, reproducible exercise in spotting configuration drift by comparing declared state with observed state.</p>
+            <div class="project-evidence"><span>Git</span><span>Desired state</span><span>Drift review</span><span>Reconciliation</span></div>
+            <p class="project-note">The current comparison is manual; it does not claim a running Kubernetes controller.</p>
+            <a class="project-read" href="https://github.com/UyiGodfrey/nexus-gitops" target="_blank" rel="noreferrer">Review the project <span aria-hidden="true">↗</span></a>
+          </article>
+          <article class="project-card" data-category="delivery">
+            <div class="project-topline"><span class="project-number">05</span><span class="project-type">CI · AUTOMATION</span><a class="external-link" href="https://github.com/UyiGodfrey/ci-demo-project" target="_blank" rel="noreferrer" aria-label="Open CI Demo Project on GitHub">↗</a></div>
+            <h3>CI Demo Project</h3>
+            <p class="project-summary">A small Node.js app that uses Jenkins to check out code, install locked dependencies, and run an automated test.</p>
+            <div class="project-evidence"><span>Jenkins</span><span>Jest</span><span>npm ci</span><span>Docker</span></div>
+            <p class="project-note">The Jenkinsfile demonstrates test automation; the image can also be built locally with Docker.</p>
+            <a class="project-read" href="https://github.com/UyiGodfrey/ci-demo-project" target="_blank" rel="noreferrer">Review the project <span aria-hidden="true">↗</span></a>
+          </article>
+        </div>
+      </section>
+
+      <section class="toolkit-section" id="toolkit" aria-labelledby="toolkit-title">
+        <div class="wrap toolkit-layout">
+          <div class="toolkit-intro"><p class="eyebrow"><span class="eyebrow-line"></span> MY TOOLKIT</p><h2 id="toolkit-title">Tools I’m<br /><span class="muted">building with.</span></h2><p>My focus is on understanding how the parts fit together: from Linux and source control to cloud infrastructure, secure pipelines, and operational feedback.</p></div>
+          <div class="toolkit-groups">
+            <div class="toolkit-group"><span class="toolkit-label">CLOUD &amp; SYSTEMS</span><div class="tool-list"><span>AWS</span><span>Linux</span><span>Networking</span><span>IAM</span></div></div>
+            <div class="toolkit-group"><span class="toolkit-label">BUILD &amp; DEPLOY</span><div class="tool-list"><span>Docker</span><span>Kubernetes</span><span>Terraform</span><span>Helm</span><span>GitHub Actions</span><span>Jenkins</span><span>Argo CD</span></div></div>
+            <div class="toolkit-group"><span class="toolkit-label">SECURITY &amp; RELIABILITY</span><div class="tool-list"><span>Gitleaks</span><span>Semgrep</span><span>Prometheus</span><span>Alertmanager</span><span>SLIs &amp; SLOs</span></div></div>
+            <div class="toolkit-group"><span class="toolkit-label">CODE &amp; AUTOMATION</span><div class="tool-list"><span>Git</span><span>JavaScript</span><span>Node.js</span><span>YAML</span><span>Shell</span></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section wrap about-section" id="about" aria-labelledby="about-title">
+        <div class="about-kicker"><p class="eyebrow"><span class="eyebrow-line"></span> A LITTLE ABOUT ME</p><span class="about-index">NIGERIA · 2026</span></div>
+        <div class="about-content"><h2 id="about-title">I like knowing<br />what happens <span class="accent">after deploy.</span></h2><div class="about-text"><p>I’m a Computer Science student focused on cloud computing, DevOps, and DevSecOps. I learn by building small, inspectable systems and writing down how they work.</p><p>My projects are practice work, and I’m careful to distinguish runnable evidence from configuration examples. I’m growing my skills in infrastructure automation, secure delivery, and service reliability.</p><a class="text-link" href="https://github.com/UyiGodfrey" target="_blank" rel="noreferrer">More about my work on GitHub <span aria-hidden="true">↗</span></a></div></div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="wrap contact-inner"><div><p class="eyebrow"><span class="eyebrow-line"></span> NEXT STEP</p><h2 id="contact-title">Let’s build<br /><span class="accent">something reliable.</span></h2><p class="contact-copy">I’m open to junior and graduate opportunities in Cloud, DevOps, and DevSecOps. I’d be glad to discuss my work and keep learning with a team.</p></div><div class="contact-action"><a class="button button-primary" href="https://github.com/UyiGodfrey" target="_blank" rel="noreferrer">Connect through GitHub <span aria-hidden="true">↗</span></a><p>Or explore the projects above and reach me through my GitHub profile.</p></div></div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="wrap footer-inner"><a class="wordmark footer-brand" href="#top"><span class="mark">G</span><span>GG<span class="wordmark-dot">.</span></span></a><p>Made with curiosity and a terminal. <span>© <span id="year">2026</span> Godfrey Glory</span></p><a href="https://github.com/UyiGodfrey" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a></div></footer>
+  </body>
+</html>
