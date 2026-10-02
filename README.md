@@ -1,6 +1,6 @@
-# Godfrey Glory — portfolio
+# Uyioghosa Godfrey Glory — portfolio
 
-A responsive, static portfolio for highlighting my hands-on Cloud, DevOps, SRE, CI/CD, and DevSecOps projects.
+A responsive static portfolio for highlighting my hands-on Cloud, DevOps, SRE, CI/CD, and DevSecOps projects.
 
 ## Preview locally
 
@@ -14,19 +14,19 @@ Then visit <http://localhost:8000>.
 
 ## Publish with GitHub Pages
 
-This site includes a GitHub Actions workflow at `.github/workflows/pages.yml`.
+This is a plain static site; GitHub Pages can serve it directly from the repository.
 
-1. Push these files to the `main` branch of a public repository.
-2. In the repository, open **Settings → Pages** and select **GitHub Actions** as the build and deployment source.
-3. Open **Actions**, select **Deploy portfolio to GitHub Pages**, choose **Run workflow**, and confirm the deployment completes.
+1. Open the repository’s **Settings → Pages**.
+2. Under **Build and deployment**, choose **Deploy from a branch**.
+3. Select branch **main**, folder **/(root)**, and click **Save**.
 
-For the current repository name `my-website`, the Pages address will be `https://uyigodfrey.github.io/my-website/` after Pages is enabled and the workflow succeeds.
+For `UyiGodfrey/my-website`, the public address will be <https://uyigodfrey.github.io/my-website/> once GitHub Pages finishes publishing. Later commits to `main` will update the site automatically.
 
 ## Personalize before sharing
 
-- Add a professional email or LinkedIn URL if you want recruiters to reach you outside GitHub.
-- Keep the project descriptions aligned with the repository READMEs and what you have actually run.
-- The featured project links currently point to public repositories under `UyiGodfrey`.
+- Add a professional email or LinkedIn URL if you want recruiters to contact you outside GitHub.
+- Keep project descriptions aligned with the repository READMEs and what you have actually run.
+- The featured project links point to public repositories under `UyiGodfrey`.
 
 ## Built with
 
