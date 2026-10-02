@@ -18,7 +18,7 @@ This site includes a GitHub Actions workflow at `.github/workflows/pages.yml`.
 
 1. Push these files to the `main` branch of a public repository.
 2. In the repository, open **Settings → Pages** and select **GitHub Actions** as the build and deployment source.
-3. Open **Actions** and confirm that the **Deploy portfolio to GitHub Pages** workflow completes.
+3. Open **Actions**, select **Deploy portfolio to GitHub Pages**, choose **Run workflow**, and confirm the deployment completes.
 
 For the current repository name `my-website`, the Pages address will be `https://uyigodfrey.github.io/my-website/` after Pages is enabled and the workflow succeeds.
 
